@@ -1,31 +1,4 @@
-# NOTE: This is a sample code in python written for arecent assignment in Statistical Machine Learning. 
-# The below code develops a Naive Bayes and Logistic Regression model without using any of the existing packages in python.
 
-###PROBLEM  STATEMENT:
-
-# Implementation of Gaussian Na¨ıve Bayes and Logistic Regression. Compare
-# the two approaches on the bank note authentication dataset, which can be downloaded from
-# http://archive.ics.uci.edu/ml/datasets/banknote+authentication. Complete description of the
-# dataset can be also found on this webpage. In short, for each row the first four columns are
-# the feature values and the last column is the class label (0 or 1). Implement a Gaussian Na¨ıve Bayes
-# classifier (recall the conditional independent assumption mentioned before) and a logistic
-# regression classifier. 
-# 
-# Please write your own code from scratch and do NOT use existing
-# functions or packages which can provide you the Na¨ıve Bayes Classifier/Logistic Regression
-# class or fit/predict function (e.g. sklearn). But you can use some basic linear
-# algebra/probability functions (e.g. numpy.sqrt(), numpy.random.normal()). For the Na¨ıve
-# Bayes classifier, assume that P(xijy)  N(i;k; i;k), where xi is a feature in the bank note
-# data, and y is the class label. Use three-fold cross-validation to split the data and train/test
-# your models.
-
-# Plot a learning curve: the accuracy vs. the size of the training set. Plot 6
-# points for the curve, using [.01 .02 .05 .1 .625 1] RANDOM fractions of you training
-# set and testing on the full test set each time. Average your results over 5 runs using
-# each random fraction (e.g. 0.05) of the training set. Plot both the Na¨ıve Bayes and
-# logistic regression learning curves on the same figure
-
-####################################################################################
 import csv
 import math
 import random
